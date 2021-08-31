@@ -1,416 +1,521 @@
-body {
-font-family: Arial, Helvetica, sans-serif;
-    overflow-x:hidden;width: 100%;}
+body{overflow-x:hidden;}
 ul{list-style: none;font-size: Opens Sans;}
-li{float: left;margin-left: 25px;}
-img{float: left;margin: 13px;margin-top: 15px;}
-a{color:white;text-decoration:none;}
-
-.clear{clear:both}
-#header{margin:-50px ;font-family: Arial, Helvetica, sans-serif;
-    width:1594px;
-    border: none;
-    float: left;
-    margin-top: -139px;
-    background-color:#0e5ac5;
-    height: 83px;}
-#slider{margin: 120px;font-family: Arial, Helvetica, sans-serif;
-    width:1020px;}
-.gachimg{height: 30px;
-    margin-top: 20px;}
-.tai1{margin:-1480px; 
-     margin-top: 232px;
-      float: left;
-      font-size: 17px;}
-.tai2{margin: -1360px;
-    margin-top: 232px;
-    float: left;
-    font-size: 17px;}
-#next{margin: 120px;
-    width:1020px;   }
-.fix_FAQ  {  font-family: sans-serif;
-margin-top: 23px;
-margin-right: 450px;
-float: right;
+li{list-style: none;}
+a{text-decoration: none;}
+.main{
+    width: 100vw;
+    overflow-x:hidden;
 }
-.fix_BoTT{    margin-top: 10px;margin-left: 30px;}
-.nav-border{    margin-right: -280px;
-    float: right;
-    border: 1px solid #5196fd;
+/* bắt dầu phần header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:  #0264db;
+}
+
+.header a{
+    margin-left: 10px;
+    color: #fff;
+}
+.sub-header a{
+ font-size: 15px;;
+}
+.img1{
+    float: left;
+    width: 20%;
+    
+    
+}
+.sub-img1{
+    margin-top: 17px;
+     float: right;
+    
+    
+}
+#anh2{
+    float: left;
+    margin-left: 40px;
+}.anh2{
+    margin-right: 65px;
+}
+.img2{
+   
+
+
+    float: left;
+    width: 39%;
+    text-align: center;
+    font-size: 15px;
+ 
+}
+.sub-img2{
+    margin-left: 20px;
+   width: 70%;
+    margin-top: 22px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
+.sub-img2 a{
+    font-size: 14px ;
+}
+.fix-img2{margin-left: 3px;}
+
+.img3{margin-top: 23px;
+    margin-left: -93px;
+    float: left;
+    width: 27%;
+}
+.header-nav{
+    margin-top: 30px;
+    float: left;
+    width: 30%;
+   margin-left: -200px;;
+
+}
+#anh3{
+    float: left;
+    margin-left: -30px;
+}
+.header-nav li{
+    display: inline-block;
+}
+/* kết thúc phần header */
+.slider{
+    
+    background-image: url("img/main.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -23px;
+    margin-left: -10px;
+    position: relative;
+    
+
+}
+.slider-text{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav-border{   border: 1px solid #5196fd;
     padding: 0px !important;
     border-radius: 20px;
     height: 21px;
-    width: 72px;
+    width: 70px;
     position: relative;
-    margin-top: 23px;
+    margin-top: -30px;
+    float: left;
+    margin-left: 250px;
 }
 .navbar-nav li a {line-height: 17px;}
 .plag-vn {
-    margin-top: 2px;
-    border: 0px solid #0166DE;
-    font-size: 14px;
-    padding-right: 12px;
-    border-radius: 20px;
-    padding-left: 7px;
-    font-family: Opens Sans;
-    position: absolute;
-    color:white !important;
-    margin-left: 2px;
-    }
- .plag-en{margin-top: 2px;
+    height: 17px;
+    float: left;
+    vertical-align: inherit;
+    border-radius: 6px;
+    width: 39px;;
+    margin-top: 1px;
+
+}
+
+ .plag-en{ height: 17px;
     background-color: white;
-    border: 0px solid #0166DE;
-     padding-right: 5px;
-      padding-left: 6px;
-       font-family: Opens Sans;
-       border-radius: 20px;
-       color: blue !important;
-       position: absolute;
-        left: 36px;
-         font-size: 15px;
-         width:23px}
-.img1{width: 1643px;
-    height: 411px;
-    margin-left: -219px;
-    margin-top: -56px;
-
+    float: left;
+    vertical-align: inherit;
+    border-radius: 7px;
+    width: 32px;
+    margin-top: -25px; }
+    /** phantieptheone**/
+    .main-content{
+        margin-top: 50px;
+    }
+    .baomat{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/bao-mat-du-lieu.png?943584375324738223214328934867578234");
+       background-size: 100% auto;
+       margin-right: 8px;
+       height: 500px;
+       position: relative;background-repeat: no-repeat;
+       left: -10px;
+    }
+    .sub-baomat{
+        left: 45px;
+        position: absolute;
+        bottom: 15px;
+        font-size: 17px;
+        
+    }.thunhap{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/khong-thu-thap-vi-tri.png?943584375324738223214328934867578234");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+        
+    }.sub-thunhap{
+        left: 45px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 17px;
+    }
+    .content2{
+        margin-top: 10px;
+    }
+    .andanh{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/an-danh.png?943584375324738223214328934867578234v");
+        background-size: 100% auto;
+        height: 500px;
+        position: relative;margin-right: 8px;
+        background-repeat: no-repeat;
+        left: -10px;
+        top: 15px;
+        
+    }
+.sub-andanh{
+    position: absolute;
+    bottom: 30px;
+    font-size: 17px;
+    left: 45px;
 }
-.img2{ margin-left:-33px;
-     margin-top: 60px;}
-.img3{float: left;
-    margin-top: -563px;
-    margin-left: 555px }
-.img4{float: left;
-    margin-top: 8px;
-    margin-left: -34px; }
-.img5{float: left;
-    margin-top: -563px;
-    margin-left: 555px}
-.img6{float: left;
-     margin-left: 83px;
-     width: 1163px;}
-.k1{margin-left: -557px;
-    float: left;
-    margin-top: 437px;
-    font-family: 'Courier New', Courier, monospace;}
-.k2{float:right;
-    margin-right: -70px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top:-178px;
+.minhbach{
+    background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/minh-bach.png?943584375324738223214328934867578234");
+    background-size: 100% auto;
+    
+    height: 500px;
+        position: relative;
+        background-repeat: no-repeat;
+        top: 15px;
 }
-.k3{margin-left: -555px;
-    float: left;
-    margin-top: 300px;
-    font-family: 'Courier New', Courier, monospace;}
-.k4{margin-left: 589px;
-    float: left;
-    margin-top: -265px;
-    font-family: 'Courier New', Courier, monospace;}
-.k5{margin-left: -1132px;
-    float: left;
-    margin-top: 40px;
-    font-family: 'Courier New', Courier, monospace;}
-.k6{ margin-top: 395px;
-    float: left;
-    width: 550px;
-    font-size: 32px;
-    text-decoration: none;
-    color: black;
-    margin-left: -585px;}
-#tieptheo{    margin-top: 380px;
-    float: left;
-    margin-left: -1288px;}
-.img13{margin:-315px;
-    width: 148%;
-    height: 1050px;
-    margin-top: 22px} 
-.k7{float: right;
-    margin-right: -577px;
-    margin-top: -300px;}
-#ungdung{ margin-left: 57px;
-    width: 1307px;
-    margin-top: 50px;
-    height: 350px;}
-.bluezone1{font-size: 37px;}
-.bluezone{    float: right;
-    color: #3465D9;
-    padding-right: 565px;
-    margin-top: -81px;
-    font-size: 40px;
+.sub-minhbach{
+    position: absolute;
+    bottom: 30px;
+    font-size: 17px;
+    left: 45px;
+    }
+.pin{margin-top: 20px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/pin.png?98433452347326453274823759832");
+    left: -10px;
+    top: 15px;
+    padding: 80px;
+}.sub-pin{
+    width: 50%;
+    font-size: 17px;
+    bottom: 65px;
+    
 }
- .img14{margin-left: 265px;
-    margin-top: 15px;} 
-.hoi{margin-left: -36px;
-    width: 1351px;
-    height:380px;
-    background-color:#3465d9 ;
-    margin-top: 300px;}
-
-.xanhTrang{margin-left:-395px;
+.clearfix{
+    clear: both;
+    margin-top: 30px;
+}
+.thongtin{
+    margin-top: -25px;
+    height: 300px;
+    left: -13px;;
+    top: 15px;
+    padding: 80px;
+  
+   
+}
+.sub-thongtin{
+    font-size: 17px;
+    bottom: 65px;
+}
+.thongtin1{
+    margin-top: -25px;
+    height: 300px;
+    left: 23px;
+    top: 15px;
+    padding: 80px;
+}
+.sub .thongtin1{
+    font-size: 17px;
+    bottom: 65px;
+    
+}
+.worker{
+    background-image: url("img/work2.png");
+    background-position: center top;
+    height: 1500px;
+    background-repeat: no-repeat;
+    top: 60px;
+}
+.tai{margin-top: -360px ;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: white;
+    left: -10px;
+    padding: 80px;
+}
+.hoi{
+    margin-top:50px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: #3465d9;
+    left: -10px;
+    padding: 80px;
+}
+.datcauhoi{margin-left: 100px;
     border-radius: 14px;
-    font-size: 22px;
-    font-family: Opens Sans Semibold;
-    background-color: #00c777;
-    margin-top: 167px;
-    color: white;
-    border: none;
-    cursor: pointer ;
-    height: 68px;
-}
-
-.blue{border: none;
-    float: left;
-    margin-left: 565px;
-    border-radius: 14px;
-    width: 365px;
+    width: 207px;
     height: 70px;
     font-size: 22px;
     font-family: Opens Sans Semibold;
-    background-color: #00a8ff;
-    margin-top: -230px;color: white;cursor:pointer
-}
-.coQuan{width: 1304px;
-     height: 500px;}
-.img15{margin-left: 61px;}
-.img16{width: 572px;
-    height: 300px;
-    margin-left: 3px;}
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
 
-.k8{    margin-top: 333px;
-    float: left;
-    margin-left: -583px;
 }
-.k9{  margin-top: 9px; float: left;
-    margin-left: 3px    ;
-}
-#phatTrien{  width: 1351px;
-    height: 1000px  ;
-    background-color: #f2f2f2;
-    margin-top: 600px;
-    margin-left: -36px;
-}
-.text{
-    padding-top: 30px;
-    text-align: center !important;
-    font-size: 40px;
-}
-.boxtt{margin-top: -146px;
-    box-sizing: border-box;
-    padding-left: 800px;
-    
-}
-
-.img17{float: left;
-    margin-top: 150px;
-    margin-left: -336px;}
-    .paper{    margin-left:-1320px;
+.dap{
         border-radius: 14px;
-        width: 166px;
+        width: 330px;
         height: 70px;
         font-size: 22px;
         font-family: Opens Sans Semibold;
-        background-color: #00c777;
-        margin-top: 530px;
+        background-color: #00A8FF;
         color: white;
         border: none;
         cursor: pointer;
-    }
-    .blue2{    border: none;
-        float: left;
-        margin-left: 565px;
-        border-radius: 14px;
-        width: 365px;
-        height: 70px;
-        font-size: 22px;
-        font-family: Opens Sans Semibold;
-        background-color: #3465d9;
-        margin-top: -110px;
-        color: white;cursor:pointer;
-    }
-    #writer{background-color: white;
-        width: 1178px;
-        height: 280px;
-        margin-top:-330px;
-        margin-left: 55px;}
-        .main-note {
-            max-width: 1084px;
-            padding-left: 80px;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            font-size: 17px;
-            line-height: 29px;
-        }
- .Boxnoidung {
-     background-color: white;
+        margin-top: 13px; }
+.coquan{margin-top:245px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: white;
+    left: -10px;
+    padding: 80px;
+}
+.thenao{
+    margin-top: 210px;
+    height: 300px;
+    left: -8px;
+    top: 15px;
+    padding: 80px
+
+
+}
+.sub-thenao{position: absolute;
+        bottom: 0px;
+        font-size: 17px;
+}
+
+.binhthuong{ margin-top: -25px;
+    height: 300px;
+    left: -8px;
+    top: 15px;
+    padding: 80px
+
+}
+.content4{
+    margin-top: 10px;}
+.sub-binhthuong{position: absolute;
+    bottom: 0px;
+    font-size: 17px;
+
+}
+
+.phattrien{
+    margin-top: 50px;
+    height: 1000px;
+    background-size: 100% 300px;
+    background-color: #f2f2f2;
+    left: -10px;
+    padding: 80px;
+}
+.paper{margin-left: 100px;
+    border-radius: 14px;
+    width: 190px;
+    height: 70px;
+    font-size: 22px;
+    font-family: Opens Sans Semibold;
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+
+}
+.taive{margin-left: 0px;
+    border-radius: 14px;
+    width: 190px;
+    height: 70px;
+    font-size: 22px;
+    font-family: Opens Sans Semibold;
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+
+}
+.Boxnoidung {
+    background-color: white;
     color: black;
     border-radius: 7px;
     margin-bottom: 84px;
-    width: 88%;
-    margin-left: 89px;
-    margin-top: 20px;
+    margin-left: 228px;
+    margin-top: 40px;
     position: absolute;
+    width: 1126px;
+
+   }
+       .noiDung {
+           max-width: 1084px;
+           padding-left: 99px;
+           padding-top: 50px;
+           padding-bottom: 50px;
+           font-size: 17px;
+           line-height: 29px;
+       }
+       .text-special-bol {
+           font-family: Opens Sans Semibold;
+       }
+       .text-special-bol {
+           font-family: Opens Sans Semibold;
+       }
+       .noidung{
+        background-color:#6B6B6B;
+        height:  220px;
+        background-size: 100% 300px;
+        left: -10px;
+        padding: 80px;
+    
     }
-        .noiDung {
-            max-width: 1084px;
-            padding-left: 99px;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            font-size: 17px;
-            line-height: 29px;
-        }
-        .text-special-bol {
-            font-family: Opens Sans Semibold;
-        }
-        .text-special-bol {
-            font-family: Opens Sans Semibold;
-        }
+    .noidung1{
+        WIDTH: 10%;
+        margin-left: 64px;
+        margin-top: 93px;
+        position: absolute;
+    }
+    .noidung2{
+        WIDTH: 20%;
+        margin-left: 253px;
+        margin-top: 93px;
+        position: absolute;
+    }
+    .noidung3{
+        WIDTH: 11%;
+        margin-left: 530px;
+        margin-top: 146px;
+        position: absolute;
+    }
+    .noidung4{
+        WIDTH: 11%;
+        margin-left: 729px;
+        margin-top: 146px;
+        position: absolute;
+    }
+    .noidung5{
+        WIDTH: 11%;
+        margin-left: 820px;
+        margin-top: 146px;
+        position: absolute;
+    }
+    .noidung6{
+        WIDTH: 11%;
+        margin-left: 1000px;
+        margin-top: 137px;
+        position: absolute;
+    }
+    .noidung7{
+        WIDTH: 11%;
+        margin-left: 1148px;
+        margin-top: 137px;
+        position: absolute;
+    }
+    .noidung8{
+        WIDTH: 11%;
+        margin-left: 1259px;
+        margin-top: 131px;
+        position: absolute;
+    }
+    .gach0{    float: left;
+        height: 35px;
+        margin-top: -58px;
+        margin-left: -55px;
+    }
+    .gach1{       float: left;
+        height: 35px;
+        margin-top: -58px;
+        margin-left: -60px;
+    }
+    .gach2{    margin-left: -80px;
+        height: 35px;
+        margin-top: -103px;
+    }
+    
+    .gach3{margin-left: -109px;
+        height: 35px;
+        margin-top: -85px
+    }
+    
+    .gach4{   margin-left: -120px;
+        height: 35px;
+        margin-top: -80px;
+    }
+    .gach5{margin-left: -142px;
+        height: 35px;
+        margin-top: -70px
+    
+    }
+    .img18{
+        float: left;
+        margin: 110px;
+        margin-top: 10px;
+    }
+    
+    .img19{       float: left;
+        margin: 40px;
+        margin-top: 9px;
+    
+    }
+    .img20{    float: left;
+        margin: 13px;
+        margin-top: -60px;;
+        margin-left: -25px;
+    }
+    .img21{   float: left;
+        margin: 13px;
+        margin-top:-60px;
+        margin-left: -40px;
+    }
+    .img22{   float: left;
+        margin: -71px;
+        margin-top: -60px;
+    }
+    
+    .img23{       float: left;
+        margin-left: -90px;
+        margin-top: -60px;
+    }
+    .img24{   margin-left: 36px;
+        float: left;
+        margin: -105px;
+        margin-top:-60px;
+    }
+    .img25{    float: left;
+        margin: -121px;
+        margin-top: -60px; }
         
-    .taiTro{width: 1310px;
-    height: 266px;
-    background-color: #6b6b6b; 
-      margin-top: -30px;}
-     
-.img18{margin-top: 95px;
-     margin-left: 170px;
-      float: left;}
-.Noidung{
-    background-color: #6B6B6B;
-    width: 1351px;
-    margin-left: -36px;
-    float: left;
-    height: 240px;
-
-
-}
-.noidung1{
-    WIDTH: 10%;
-    margin-left: 64px;
-    margin-top: 93px;
-    position: absolute;
-}
-.noidung2{
-    WIDTH: 20%;
-    margin-left: 253px;
-    margin-top: 93px;
-    position: absolute;
-}
-.noidung3{
-    WIDTH: 11%;
-    margin-left: 530px;
-    margin-top: 146px;
-    position: absolute;
-}
-.noidung4{
-    WIDTH: 11%;
-    margin-left: 729px;
-    margin-top: 146px;
-    position: absolute;
-}
-.noidung5{
-    WIDTH: 11%;
-    margin-left: 820px;
-    margin-top: 146px;
-    position: absolute;
-}
-.noidung6{
-    WIDTH: 11%;
-    margin-left: 1000px;
-    margin-top: 137px;
-    position: absolute;
-}
-.noidung7{
-    WIDTH: 11%;
-    margin-left: 1148px;
-    margin-top: 137px;
-    position: absolute;
-}
-.noidung8{
-    WIDTH: 11%;
-    margin-left: 1259px;
-    margin-top: 131px;
-    position: absolute;
-}
-.gach0{    float: left;
-    height: 35px;
-    margin-top: -58px;
-    margin-left: -55px;
-}
-.gach1{       float: left;
-    height: 35px;
-    margin-top: -58px;
-    margin-left: -60px;
-}
-.gach2{margin-left: -80px;
-    height: 35px;
-    margin-top:-58px;
-}
-
-.gach3{margin-left: -109px;
-    height: 35px;
-    margin-top: -50px;
-}
-
-.gach4{    margin-left: -120px;
-    height: 35px;
-    margin-top: -50px
-}
-.gach5{margin-left: -142px;
-    height: 35px;
-    margin-top: -44px
-
-}
-.img18{     float: left;
-    margin: 38px;
-    margin-top: 0px;
-}
-
-.img19{   float: left;
-    margin: 40px;
-    margin-top: -10px;
-
-}
-.img20{    float: left;
-    margin: 13px;
-    margin-top: -60px;;
-    margin-left: -25px;
-}
-.img21{   float: left;
-    margin: 13px;
-    margin-top:-60px;
-    margin-left: -40px;
-}
-.img22{   float: left;
-    margin: -71px;
-    margin-top: -60px;
-}
-
-.img23{       float: left;
-    margin-left: -90px;
-    margin-top: -60px;
-}
-.img24{   margin-left: 36px;
-    float: left;
-    margin: -105px;
-    margin-top:-60px;
-}
-.img25{    float: left;
-    margin: -121px;
-    margin-top: -60px;
-
-}
-.end{      margin-top: 241px;
-    width: 1351px;
-    background-color: #6B6B6B;
-    height: 53px
-}
-.fix_FAQ2{       font-family: serif;
-    font-size: 15px;
-    float: right;
-    margin-right: 120px;
-    margin-top: 15px;
-}
-.for{margin-top: 89px;
-    margin-bottom: 26px;
-    color: black;
-    line-height: 51px;
-    max-width: 832px;}
+            .menu-bot-right {
+                float: right;
+                margin-top: 10px;}
+                .menu-bot-link {
+                float: left;
+                padding-right: 30px;
+                padding-bottom: 20px;
+                padding-top: 5px;}
+                .menu-bot-link a {
+                color: #C1C1C1;
+                font-size: 15px;
+            
+            }
+        .end{
+            background-color: #6B6B6B;
+            height: 60px;
+            margin-top: 1px;
+        }

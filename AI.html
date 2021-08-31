@@ -1,245 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bluezone - Ứng dụng phát hiện tiếp xúc gần, bảo vệ mình, bảo vệ cộng đồng chống COVID-19</title>
+
     <link rel="stylesheet" href="asset/style.css">
-    <title>Bluezone - Contact detection, protect yourself, protect the community against COVID-19</title>		
-</head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .pin {
+            width: 1167px;
+        }
+
+        .phattrien {
+            width: 103%
+        }
+
+        .hoi {
+            width: 103%;
+        }
+
+        .noidung {
+            width: 103%;
+        }
+    </style>
+
 <body>
-    <div id="header">
-        <ul>
-    
-        <img style="margin-top: 15px; float: left; margin-left: 91px" src="assets/css/img/logo1.svg">
-        <img  class="gachimg"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-        <img src="assets/css/img/logo2.svg"/>
-    <li class="fix_BoTT"><a href="#"><p style="font-size: 17px;margin-top: 3px;">Ministry of Information and</br>
-        Communications of Viet Nam</p></li>
-        <img class="gachimg"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-        <img src="assets/css/img/logo3.svg"/>
-    <li class="fix_BoTT"><a href="#"><p style="font-size: 17px; margin-top: 5px;margin-left: -25px;">Ministry of Health</br>
-        of Viet Nam</p></a></li>
-</ul>
-<div class="clearfix">
-</div> 
-<ul class="fix_FAQ">
-    <li><a href="https://bluezone.gov.vn/cac-cau-hoi-thuong-gap">FAQ</a></li>
-    <li><a href="https://bluezone.ai/contact">ConTact</a></li>
-</ul>
-<div class="nav-border">
-    <a style="text-decoration: none; color: black;" class="plag-vn" href="BlueZone.html">
-        <font style="vertical-align: inherit;">
-            <font style="vertical-align: inherit;">Vn</font>
-        </font>
-    </a>
-    <a style="text-decoration: none; color: black;" href="AI.html" class="plag-en">
-        <font style="vertical-align: inherit;">
-            <font style="vertical-align: inherit;">En</font
-                font>
-    </a>
-</div>
-</div>
-<div class="clearfix">
-<div id="slider">
-<img class="img1"src="assets/css/img/main.png"/>
-<span style="font-size: 37px;margin: -1480px;color: white; ">Protect yourself</span>
-<p style="margin: -1480px;color:white;margin-top: 48px;float: left;font-size: 17px;">This app is to alert if you have been in close </br>contact with people who has tested positive for</br>COVID-19</p>
-<span style="margin: -1480px;color: white;margin-top: 110px;float: left;font-size:37px ;">Protect our community</span>
-<p style=" margin: -1480px;color:white;margin-top: 164px;float: left;font-size: 17px;">By joining Bluezone community, you have got</br> connected to protect the community</p>
-<a href="https://apps.apple.com/vn/app/bluezone/id1508062685?ls=1"><img class="tai1" src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/App-Store.svg"></a>
-<a href="https://play.google.com/store/apps/details?id=com.mic.bluezone"><img class="tai2" src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/Google-play.svg"></a>
-</div>
-<di class="clearfix"/></div>
-<div id="next">
-<img class="img2"src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/bao-mat-du-lieu.png?943584375324738223214328934867578234"/>
+    <div class="main">
 
-<div class="k1">
-          <h1>Data secured</h1>
-          <p  style="font-size: 19px;
-          max-width: 500px;
-          line-height: 30px">The app stores data on your own device, not on centralized servers</p>
- </div>
-          <img class="img3"src ="https://bluezone.gov.vn/WebBluezone/BluezoneHome/khong-thu-thap-vi-tri.png?943584375324738223214328934867578234"/>
-
-<div class="k2">
-        <h1>No location data collection</h1>
-        <p style="font-size: 19px;
-        max-width: 500px;
-        line-height: 30px;">The app does not collect data on your location</p>
-</div>
-<img class="img4"src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/an-danh.png?943584375324738223214328934867578234"/>
-<div class="k3">
-<h1>Anonymity</h1>
-<p style="font-size: 19px;
-max-width: 500px;
-line-height: 30px;">People joining the community will remain
-     anonymous to others. Only competent health
-      authorities are able know the identities of infected 
-      people as well as of those who are suspected of
-       infection due to close contact with COVID-19 cases.
-</div>
-<img class="img5" src= "https://bluezone.gov.vn/WebBluezone/BluezoneHome/minh-bach.png?943584375324738223214328934867578234"/>
-<div class="k4">
-<h1>Transparency</h1>
-<p  style="font-size: 19px;
-max-width: 500px;
-line-height: 30px ;margin-top: -15px">The project is open source under GPL 3.0 license.
-    Users of countries around the world are free to
-    learn about system activities at the source code
-    level, and to use, research, modify and share it</p>
-</div>
-</div>
-<div id="pin">
-<img class="img6" src = "https://bluezone.gov.vn/WebBluezone/BluezoneHome/pin.png?98433452347326453274823759832">
-
-<div class="k5">
-<h1>No battery drain</h1>
-<p style="font-size: 19px;">Bluezone uses BLE (Bluetooth Low Energy) technology</br>
-    so you can turn on Bluetooth all day with about 10%</br>
-    battery life consumption
-</p>
-<di class="clearfix"/></div>
-<div id="tieptheo">
-<div style="width: 100%; height: 1100px;">
-  <img class="img13" src="asset/img/vipro.png">
-</div>
-<div class="clearfix">  
-<div id="ungdung"/>
-<p style="font-size: 37px;margin-left:410px">Download  </p> 
-<span class="bluezone">Bluezone</span>
-<p style="    font-size: 37px;margin-left: 744px;margin-top: -80px;">now  </p> 
-
-<a href="https://apps.apple.com/vn/app/bluezone/id1508062685?ls=1"><img  class="img14"src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/App-Store.png?943584375324738223214328934867578234"></a>
-<a href="https://play.google.com/store/apps/details?id=com.mic.bluezone"><img  src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/Google-play.png?943584375324738223214328934867578234"></a>
-<a href="https://appgallery.huawei.com/#/app/C102911167?sharePrepath=ag&channelId=web&detailType=0"><img src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/huaweiStore.png"></a>
-<div class="clearfix">
-
-
-<div class="hoi"/>
-<p style="margin-left: 500px;float:left;color:white;font-size: 37px;margin-top: 70px;    font-family: Opens Sans Semibold;"
->Questions/Answers<p>
-
-<a href="https://bluezone.ai/question"><button class="xanhTrang" value="Submit your question"><p style="margin-top: 20px;">Submit your question
-
-</button></a></div></p>
-<a href="https://bluezone.ai/faq"><button class="blue" value="Frequently asked questions"><p style="margin-top:20px;">
-    Frequently asked questions    </p></button></a></div>
-<div class="coQuan">
-<p style="margin-top: 89px;margin-left: 330px;font-size: 37px;font-family: Opens Sans Semibold;">For competent anti-epidemic authorities</p>
-<p style="margin-top: -38px;margin-left: 478px;font-size: 37px;font-family: Opens Sans Semibold;">(in other countries)</p>
-<p style="font-size: 22px;margin-left: 104px;font-family: Opens Sans Semibold;">Viet Nam has been mentioned as a prominent country which comes up with effective approaches to bring the COVID-19 </br>
-    spread under control. With its population of nearly 100 million and long border with China (country of the first COVID-19</br>
-     <p style="    margin-left: 155px;
-     font-size: 22px;
-     margin-top: -22px; font-family: Opens Sans Semibold;">(cases), Viet Nam faces very high risk of infection. How did they do in the fight against the pandemic?</p>
-<img class="img15" src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/corona-pic.png"/>
-<div class="k8">
-<h2 style=" margin-top :3px">How did they do?</h2>  
-<p style="font-size: 17px;font-family: system-ui;">Whenever a new case appeared, they thoroughly traced and</br>
-    applied centralized isolation to those who had close contact to the </br>
-    case; requested isolation at home on people who had been in </br>
-    proximity to people suspected of infection. They tested all</br>
-    suspected people and actively treated those infected. With</br>
-    Bluezone, it is easier and more effective to follow such strategy</p>
-</div>
-
-<img class="img16" src ="https://bluezone.gov.vn/WebBluezone/BluezoneHome/people-pic-mb.png">
-<div class="k9">
-<h2 style=" margin-top :3px" >Life returns to normal    </h2>  
-<p style="font-size: 17px;font-family: system-ui;">Once the pandemic shows a sign of decrease, the risk of an</br>
-    outbreak remains, so tight control is still needed. Before the</br>
-    vaccine is available, the appearance of small outbreaks is</br>
-    possible. Applying the above-mentioned measures of Viet Nam </br>
-    with the support of Bluezone app will help the life return to<br> nomal
-</p>
-</div>
-<div id="phatTrien"/>
-<div class="text">
-<p>For developers</p>
-<div class="boxtt">
-<img class="img17"src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/develope-pic.png?943584375324738223214328934867578234"/>
-    <a href="https://bluezone.ai/Bluezone_White_paper_en.pdf"><button class="paper" value="White Paper">
-        <p style="margin-top: 23px;">White Paper</button></a></div></p>
-    <a href="https://github.com/BluezoneGlobal"><button class="blue2" value="Download mã nguồn mở">
-        <p style="margin-top: 23px;">Download open source</p></button></a></div>
-    <div class="clearfix">
-        <div class="Boxnoidung"> 
-            <div class="noiDung">
-                <div class="line-1">
-                    <b>Bluezone</b> project was rushed out in 3 weeks, so the time to open its source code
-                     repository, the time of certificate declaration, and the time of release of different mobile versions are not coincident.
-                      We expect users and developers to sympathize, and join hands to find out and get the errors fixed, as well as propose 
-                      suggestions for improvement.
-                </div> 
-                      <div class="line-2">If you have any comments, find out any software
-                           vulnerabilities and operation issues, as well as want to share any suggestions, please post such information directly 
-                           to the project’s source code repository via <b>Issue</b>
-                           <b>Pull Request</b><b>Mailing list</b> to get it publicized to the community.
+        <div class="header">
+            <div class="sub-header">
+                <div class="img1">
+                    <div class="sub-img1">
+                        <img src="asset/img/logo1.svg" alt="">
+                    </div>
+                </div>
+                <div class="img2">
+                    <div class="sub-img2">
+                        <img id="anh2" class="fix-img2" src="asset/img/logo2.svg">
+                        <div class="anh2">
+                            <a href="#">Ministry of Information and <br>
+                                Communications of Viet Nam </a>
                         </div>
-            </div>
-         </div>
-    </div>
-    
-</div>
-<div class="clearfix">
+                    </div>
+                </div>
+                <div class="img3">
+                    <img id="anh3" src="asset/img/logo3.svg" alt="">
+                    <a href="#">Ministry of Health<br>
+                        of Viet Nam</a>
+                </div>
+                <div class="header-nav">
 
-    <div class="Noidung">
-        <div class="noidung1">
-            <p style="font-size: 18px; color: white; margin-left: 39px; margin-top:-25px;">Powered by  </p>
-            <img class="img18"src="https://bluezone.gov.vn/WebBluezone/theme/bkav.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung2">
-             
-            <p style=" margin-left: 39px;margin-top: -33px;font-size: 18px;color: white;">Collaboration Teams</p>
-            <img  class="img19"src="https://bluezone.gov.vn/WebBluezone/theme/memozone.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung3">
-            <img  class="gach0"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-            <img  class="img20"src="https://bluezone.gov.vn/WebBluezone/theme/mobifone.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung4">
-            <img  class="gach1"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-    
-            <img   class="img21"src="https://bluezone.gov.vn/WebBluezone/theme/logo-vnpt.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung5">
-            <img  class="gach2"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-    
-            <img   class="img22"src="https://bluezone.gov.vn/WebBluezone/theme/viettel.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung6">
-            <img  class="gach3"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-    
-            <img  class="img23" src="https://bluezone.gov.vn/WebBluezone/theme/cmc.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung7">
-            <img  class="gach4"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-    
-            <img   class="img24"src="https://bluezone.gov.vn/WebBluezone/theme/fpt.svg?9473284672383281">
-        </div>
-    
-        <div class="noidung8">
-            <img  class="gach5"src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281"/>
-    
-            <img  class="img25" src="https://bluezone.gov.vn/WebBluezone/theme/saobacdau.svg?9473284672383281">
-         
-            </div> 
-            <div class="clearfix">
-    
-            <div class="end">
-                <ul class="fix_FAQ2">
+                    <ul style="margin-left: 55px">
                         <li><a href="https://bluezone.ai/faq">FAQ</a></li>
-                        <li><a href="https://bluezone.ai/contact">ConTact</a></li>
-                        <li><a href="https://bluezone.ai/privacy-policy-terms-of-use">Terms and Conditions</a></li>
-    
+                        <li><a href="https://bluezone.ai/contact">Contact</a></li>
+
+
+                        </li>
                     </ul>
-</html>
+                    <div class="nav-border">
+                        <a style="text-decoration: none; color:white;" class="plag-vn" href="BlueZone.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Vn</font>
+                            </font>
+                        </a>
+                        <a style="text-decoration: none; color: blue;margin-top: -17px;margin-left: 35px;" href="AI.html" class="plag-en">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;margin-left: 8px;">En</font font>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-text">
+            <h1>Protect yourself</h1>
+            <p>This app is to alert if you have been in close</br>
+                contact with people who has tested positive for </br>
+                COVID-19</p>
+            <h1>Protect our community</h1>
+            <p>By joining Bluezone community, you have </br>got
+                connected to protect the community</p>
+            <a href="https://apps.apple.com/vn/app/bluezone/id1508062685?ls=1"><img src="asset/img/tai1.svg" alt="">
+            </a><a href="https://play.google.com/store/apps/details?id=com.mic.bluezone"><img src="asset/img/tai2.svg" alt=""></a>
+        </div>
+    </div>
+    </div>
+
+    <div class="main-content">
+        <div class="row contet1">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 baomat">
+                <div class="sub-baomat">
+
+                    <h2>Data secured</h2>
+                    <p>The app stores data on your own device, not on centralized servers
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5 col5 thunhap">
+                <div class="sub-thunhap">
+
+                    <h2>No location data collection</h2>
+                    <p>The app does not collect data on your location
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row content2">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 andanh">
+                <div class="sub-andanh">
+                    <h2>Anonymity</h2>
+                    <p>People joining the community will remain
+                        anonymous to others. Only competent health
+                        authorities are able know the identities of infected
+                        people as well as of those who are suspected of
+                        infection due to close contact with COVID-19 cases</p>
+                </div>
+            </div>
+            <div class="col-md-5 minhbach">
+                <div class="sub-minhbach">
+                    <h2>Transparency
+                    </h2>
+                    <p>The project is open source under GPL 3.0 license.
+                        Users of countries around the world are free to
+                        learn about system activities at the source code
+                        level, and to use, research, modify and share it.
+                    </p>
+                </div>
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row content3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 pin">
+                <div class="sub-pin">
+                    <h2>No battery drain
+                    </h2>
+                    <p>Bluezone uses BLE (Bluetooth Low Energy) technology so you can turn on Bluetooth all day with
+                        about 10% battery life consumption
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="clearfix">
+        <div class="col-md-12 worker">
+
+        </div>
+        <div class="col-md-12 tai">
+            <div style="text-align: center;">
+                <div style="font-size: 37px;">Download<span style="color: blue;">BlueZone</span> now</div>
+                <div style="margin-top: 50px;">
+                    <div>
+                  <a href="https://apps.apple.com/vn/app/bluezone/id1508062685?ls=1"><img src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/App-Store.png?943584375324738223214328934867578234">
+                  <a href="https://play.google.com/store/apps/details?id=com.mic.bluezone" ><img src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/Google-play.png?943584375324738223214328934867578234">
+                   <a href="https://appgallery.huawei.com/#/app/C102911167?sharePrepath=ag&channelId=web&detailType=0"><img src="asset/img/heoquay.png">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 hoi">
+                <div style="text-align: center;">
+                    <div style="font-size: 37px;color: white;">Questions/Answers</div>
+                    <a href="https://bluezone.gov.vn/hoi-dap"> <button type="button" class="datcauhoi">Submit your
+                            question </button></a>
+                    <a href="https://bluezone.gov.vn/cac-cau-hoi-thuong-gap"><button type="button"
+                            class="dap">Frequently asked questions</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="container">
+            <div class="col-md-12 coquan">
+                <div style="text-align: center;">
+                    <div class="sub-coquan">
+                        <h2>For competent anti-epidemic authorities </h2>
+                        <h2>(in other countries)</h2>
+                        <p style="font-size: 20px;">Viet Nam has been mentioned as a prominent country
+                            which comes up with effective approaches to bring the COVID-19
+                            spread under control. With its population of nearly 100 million
+                            and long border with China (country of the first COVID-19 cases),
+                            Viet Nam faces very high risk of infection. How did they do in the fight against the
+                            pandemic? </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img style="    margin-left: -32px"
+                            src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/corona-pic.png" />
+                        <h2 style=" margin-left: -34px;">How did they do?</h2>
+                        <p style="margin-left: -35px;font-size: 16px;">Whenever a new case appeared, they thoroughly
+                            traced and applied centralized isolation to those
+                            who had close contact to the case; requested isolation at home on people who had been in
+                            proximity
+                            to people suspected of infection. They tested all suspected people and actively treated
+                            those infected.
+                            With Bluezone, it is easier and more effective to follow such strategy</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img style=" margin-left: -15px"
+                            src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/people-pic.png" />
+                        <h2 style=" margin-left: -16px;;">Life returns to normal</h2>
+
+                        <p style="margin-left: -17px; font-size: 16px;">Once the pandemic shows a sign of decrease, the
+                            risk of an outbreak remains,
+                            so tight control is still needed. Before the vaccine is available,
+                            the appearance of small outbreaks is possible. Applying the above-mentioned
+                            measures of Viet Nam with the support of Bluezone app will help the life return to normal.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-12 phattrien">
+        <div style="text-align: center;">
+            <h2>For developers</h2>
+            <img
+                src="https://bluezone.gov.vn/WebBluezone/BluezoneHome/develope-pic.png?943584375324738223214328934867578234">
+        </div>
+        <div style="text-align: center;    margin-top: 40px; margin-left: -120px;">
+            <a href="https://bluezone.ai/Bluezone_White_paper_en.pdf"> <button type="button" value="zz"
+                    class="paper">White Paper</button>
+                <a href="https://github.com/BluezoneGlobal"><button type="button" class="dap">Download open
+                        source</button></a>
+                <div class="clearfix">
+                    <div class="Boxnoidung">
+                        <div class="noiDung">
+                            <div class="text-align:center"></div>
+                            <div class="line-1">
+                                <b>Bluezone</b> project was rushed out in 3 weeks, so the time to open its source code
+                                repository, the time of certificate declaration, and the time of release of different
+                                mobile versions are not coincident.
+                                We expect users and developers to sympathize, and join hands to find out and get the
+                                errors fixed, as well as propose
+                                suggestions for improvement.
+                            </div>
+                            <div class="line-2">If you have any comments, find out any software
+                                vulnerabilities and operation issues, as well as want to share any suggestions, please
+                                post such information directly
+                                to the project’s source code repository via <b>Issue</b>
+                                <b>Pull Request</b><b>Mailing list</b> to get it publicized to the community.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="clearfix">
+
+        <div class="col-md-12 noidung">
+
+            <p style=" font-size: 20px;color: white;margin-left: 108px;margin-top: -37px;">Powered by </p>
+            <img class="img18" src="https://bluezone.gov.vn/WebBluezone/theme/bkav.svg?9473284672383281">
+        </div>
+
+        <div class="noidung2">
+
+            <p style="margin-left: 39px;margin-top: -50px;font-size: 20px;color: white;">Collaboration Teams</p>
+            <img class="img19" src="https://bluezone.gov.vn/WebBluezone/theme/memozone.svg?9473284672383281">
+        </div>
+
+        <div class="noidung3">
+            <img class="gach0" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+            <img class="img20" src="https://bluezone.gov.vn/WebBluezone/theme/mobifone.svg?9473284672383281">
+        </div>
+
+        <div class="noidung4">
+            <img class="gach1" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+
+            <img class="img21" src="https://bluezone.gov.vn/WebBluezone/theme/logo-vnpt.svg?9473284672383281">
+        </div>
+
+        <div class="noidung5">
+            <img class="gach2" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+
+            <img class="img22" src="https://bluezone.gov.vn/WebBluezone/theme/viettel.svg?9473284672383281">
+        </div>
+
+        <div class="noidung6">
+            <img class="gach3" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+
+            <img class="img23" src="https://bluezone.gov.vn/WebBluezone/theme/cmc.svg?9473284672383281">
+        </div>
+
+        <div class="noidung7">
+            <img class="gach4" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+
+            <img class="img24" src="https://bluezone.gov.vn/WebBluezone/theme/fpt.svg?9473284672383281">
+        </div>
+
+        <div class="noidung8">
+            <img class="gach5" src="https://bluezone.gov.vn/WebBluezone/theme/Line8.png?9473284672383281" />
+
+            <img class="img25" src="https://bluezone.gov.vn/WebBluezone/theme/saobacdau.svg?9473284672383281">
+
+        </div>
+        <div class="clearfix">
+
+            <div class="col-md-12 end">
+                <div class="menu-bot-right ">
+                    <div class="menu-bot-link"><a href="http://bluezone.gov.vn/cac-cau-hoi-thuong-gap">FAQ</a></div>
+                    <div class="menu-bot-link"><a href="http://bluezone.gov.vn/tai-lieu">Tài liệu</a></div>
+                    <div class="menu-bot-link"><a href="http://bluezone.gov.vn/lien-he">Liên hệ</a></div>
+                    <div class="menu-bot-link"><a href="http://bluezone.gov.vn/dieu-khoan-su-dung">Điều khoản sử
+                            dụng</a></div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
