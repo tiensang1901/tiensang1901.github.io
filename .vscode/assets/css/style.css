@@ -1,0 +1,485 @@
+body{overflow-x:hidden;}
+ul{list-style: none;font-size: Opens Sans;}
+li{list-style: none;}
+a{text-decoration: none;}
+.main{
+    width: 100vw;
+    overflow-x:hidden;
+}
+/* bắt dầu phần header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:  #0264db;
+}
+
+.header a{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+.img1{
+    float: left;
+    width: 20%;
+    
+    
+}
+.sub-img1{
+    margin-top: 17px;
+     float: right;
+    
+    
+
+}
+.img2{
+   
+
+
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+ 
+}
+.sub-img2{
+    margin-left: 20px;
+   width: 70%;
+    margin-top: 22px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+.fix-img2{margin-left: 3px;}
+
+.img3{margin-top: 23px;
+    margin-left: -93px;
+    float: left;
+    width: 20%;
+}
+.header-nav{
+    margin-top: 30px;
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+
+}
+.header-nav li{
+    display: inline-block;
+}
+
+/* kết thúc phần header */
+
+.slider{
+    
+    background-image: url("img/main.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -23px;
+    margin-left: -10px;
+    position: relative;
+    
+
+}
+.slider-text{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: #fff;
+    font-size: 17px;
+}
+.nav-border{   border: 1px solid #5196fd;
+    padding: 0px !important;
+    border-radius: 20px;
+    height: 21px;
+    width: 71px;
+    position: relative;
+    margin-top: -30px;
+    float: left;
+    margin-left: 250px;
+}
+.navbar-nav li a {line-height: 17px;}
+.plag-vn {
+    height: 17px;
+    background: white;
+    float: left;
+    vertical-align: inherit;
+    background-color: white;
+    border-radius: 6px;
+    width: 29px;
+    margin-top: 1px;
+
+}
+
+ .plag-en{ margin-left: 0px;
+    float: left;
+    vertical-align: inherit;
+    border-radius: 8px;
+    width: 29px; }
+    /** phantieptheone**/
+    .main-content{
+        margin-top: 50px;
+    }
+    .baomat{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/bao-mat-du-lieu.png?943584375324738223214328934867578234");
+       background-size: 100% auto;
+       margin-right: 8px;
+       height: 500px;
+       position: relative;background-repeat: no-repeat;
+       left: -10px;
+    }
+    .sub-baomat{
+        left: 45px;
+        position: absolute;
+        bottom: 15px;
+        font-size: 17px;
+        
+    }.thunhap{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/khong-thu-thap-vi-tri.png?943584375324738223214328934867578234");
+        background-size: 100% auto;
+        margin-left: 8px;background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+        
+    }.sub-thunhap{
+        left: 45px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 17px;
+    }
+    .content2{
+        margin-top: 10px;
+    }
+    .andanh{
+        background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/an-danh.png?943584375324738223214328934867578234v");
+        background-size: 100% auto;
+        height: 500px;
+        position: relative;margin-right: 8px;
+        background-repeat: no-repeat;
+        left: -10px;
+        top: 15px;
+        
+    }
+.sub-andanh{
+    position: absolute;
+    bottom: 30px;
+    font-size: 17px;
+    left: 45px;
+}
+.minhbach{
+    background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/minh-bach.png?943584375324738223214328934867578234");
+    background-size: 100% auto;
+    
+    height: 500px;
+        position: relative;
+        background-repeat: no-repeat;
+        left: 9px;
+        top: 15px;
+}
+.sub-minhbach{
+    position: absolute;
+    bottom: 30px;
+    font-size: 17px;
+    left: 45px;
+    }
+.pin{margin-top: 20px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-image: url("https://bluezone.gov.vn/WebBluezone/BluezoneHome/pin.png?98433452347326453274823759832");
+    left: -10px;
+    top: 15px;
+    padding: 80px;
+}.sub-pin{
+    width: 50%;
+    font-size: 17px;
+    bottom: 65px;
+    
+}
+.clearfix{
+    clear: both;
+    margin-top: 30px;
+}
+.thongtin{
+    margin-top: -25px;
+    height: 300px;
+    left: -13px;;
+    top: 15px;
+    padding: 80px;
+  
+   
+}
+.sub-thongtin{
+    font-size: 17px;
+    bottom: 65px;
+}
+.thongtin1{
+    margin-top: -25px;
+    height: 300px;
+    left: 23px;
+    top: 15px;
+    padding: 80px;
+}
+.sub .thongtin1{
+    font-size: 17px;
+    bottom: 65px;
+    
+}
+.worker{
+    background-image: url("img/work.png");
+    background-position: center top;
+    height: 1500px;
+    background-repeat: no-repeat;
+    top: 325px;
+}
+.tai{margin-top: -110px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: white;
+    left: -10px;
+    padding: 80px;
+}
+.hoi{
+    margin-top:50px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: #3465d9;
+    left: -10px;
+    padding: 80px;
+}
+.datcauhoi{margin-left: 100px;
+    border-radius: 14px;
+    width: 190px;
+    height: 70px;
+    font-size: 22px;
+    font-family: Opens Sans Semibold;
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+
+}
+.dap{
+        border-radius: 14px;
+        width: 330px;
+        height: 70px;
+        font-size: 22px;
+        font-family: Opens Sans Semibold;
+        background-color: #00A8FF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 13px; }
+.coquan{margin-top:305px;
+    height: 300px;
+    background-size: 100% 300px;
+    background-color: white;
+    left: -10px;
+    padding: 80px;
+}
+.thenao{
+    margin-top: 210px;
+    height: 300px;
+    left: -8px;
+    top: 15px;
+    padding: 80px
+
+
+}
+.sub-thenao{position: absolute;
+        bottom: 0px;
+        font-size: 17px;
+}
+
+.binhthuong{ margin-top: -25px;
+    height: 300px;
+    left: -8px;
+    top: 15px;
+    padding: 80px
+
+}
+.content4{
+    margin-top: 10px;}
+.sub-binhthuong{position: absolute;
+    bottom: 0px;
+    font-size: 17px;
+
+}
+
+.phattrien{
+    margin-top:50px;
+    height: 650px;
+    background-size: 100% 300px;
+    background-color: #f2f2f2;
+    left: -10px;
+    padding: 80px;
+}
+.paper{margin-left: 100px;
+    border-radius: 14px;
+    width: 190px;
+    height: 70px;
+    font-size: 22px;
+    font-family: Opens Sans Semibold;
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+
+}
+.taive{margin-left: 0px;
+    border-radius: 14px;
+    width: 190px;
+    height: 70px;
+    font-size: 22px;
+    font-family: Opens Sans Semibold;
+    background-color: #00c777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+
+}
+
+.noidung{
+    background-color:#6B6B6B;
+    height:  220px;
+    background-size: 100% 300px;
+    left: -10px;
+    padding: 80px;
+
+}
+.noidung1{
+    WIDTH: 10%;
+    margin-left: 64px;
+    margin-top: 93px;
+    position: absolute;
+}
+.noidung2{
+    WIDTH: 20%;
+    margin-left: 253px;
+    margin-top: 93px;
+    position: absolute;
+}
+.noidung3{
+    WIDTH: 11%;
+    margin-left: 530px;
+    margin-top: 146px;
+    position: absolute;
+}
+.noidung4{
+    WIDTH: 11%;
+    margin-left: 729px;
+    margin-top: 146px;
+    position: absolute;
+}
+.noidung5{
+    WIDTH: 11%;
+    margin-left: 820px;
+    margin-top: 146px;
+    position: absolute;
+}
+.noidung6{
+    WIDTH: 11%;
+    margin-left: 1000px;
+    margin-top: 137px;
+    position: absolute;
+}
+.noidung7{
+    WIDTH: 11%;
+    margin-left: 1148px;
+    margin-top: 137px;
+    position: absolute;
+}
+.noidung8{
+    WIDTH: 11%;
+    margin-left: 1259px;
+    margin-top: 131px;
+    position: absolute;
+}
+.gach0{    float: left;
+    height: 35px;
+    margin-top: -58px;
+    margin-left: -55px;
+}
+.gach1{       float: left;
+    height: 35px;
+    margin-top: -58px;
+    margin-left: -60px;
+}
+.gach2{    margin-left: -80px;
+    height: 35px;
+    margin-top: -103px;
+}
+
+.gach3{margin-left: -109px;
+    height: 35px;
+    margin-top: -85px
+}
+
+.gach4{   margin-left: -120px;
+    height: 35px;
+    margin-top: -80px;
+}
+.gach5{margin-left: -142px;
+    height: 35px;
+    margin-top: -70px
+
+}
+.img18{
+    float: left;
+    margin: 110px;
+    margin-top: 10px;
+}
+
+.img19{       float: left;
+    margin: 40px;
+    margin-top: 9px;
+
+}
+.img20{    float: left;
+    margin: 13px;
+    margin-top: -60px;;
+    margin-left: -25px;
+}
+.img21{   float: left;
+    margin: 13px;
+    margin-top:-60px;
+    margin-left: -40px;
+}
+.img22{   float: left;
+    margin: -71px;
+    margin-top: -60px;
+}
+
+.img23{       float: left;
+    margin-left: -90px;
+    margin-top: -60px;
+}
+.img24{   margin-left: 36px;
+    float: left;
+    margin: -105px;
+    margin-top:-60px;
+}
+.img25{    float: left;
+    margin: -121px;
+    margin-top: -60px; }
+    
+        .menu-bot-right {
+            float: right;
+            margin-top: 10px;}
+            .menu-bot-link {
+            float: left;
+            padding-right: 30px;
+            padding-bottom: 20px;
+            padding-top: 5px;}
+            .menu-bot-link a {
+            color: #C1C1C1;
+            font-size: 15px;
+        
+        }
+    .end{
+        background-color: #6B6B6B;
+        height: 60px;
+        margin-top: 1px;
+    }
