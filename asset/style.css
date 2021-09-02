@@ -358,9 +358,9 @@ a{text-decoration: none;}
     color: black;
     border-radius: 7px;
     margin-bottom: 84px;
-    margin-left: 250px;
-    margin-top: 55px;
     position: absolute;
+    left: 10%;
+    top: 67%;
     width: 79%;
 
 
