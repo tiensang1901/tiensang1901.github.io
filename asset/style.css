@@ -362,9 +362,9 @@ a{text-decoration: none;}
     left: 10%;
     top: 67%;
     width: 79%;
+    text-align: -webkit-center;
+}
 
-
-   }
        .noiDung {
         max-width: 1084px;
         padding-left: 32px;
@@ -526,3 +526,4 @@ a{text-decoration: none;}
             height: 60px;
             margin-top: 1px;
         }
+        
